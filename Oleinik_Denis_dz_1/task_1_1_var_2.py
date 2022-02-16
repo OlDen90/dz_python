@@ -22,4 +22,4 @@ elif duration >= sec_in_hour and duration < sec_in_day:
     print('duration =', duration)
     print('До суток осталось', hours, 'час(ов)', sum_of_min // sec_in_min, 'мин', seconds, 'сек')
 else:
-    print('Таймер работает в диапозоне до 24-х часов. Пожалуйста, введите новое число.')
+    print('Таймер работает в диапазоне до 24-х часов. Пожалуйста, введите новое число.')
