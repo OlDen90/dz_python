@@ -6,3 +6,7 @@ vcs.xml
 .idea/.gitignore
 .idea/
 .gitignore
+virt/
+draft.py
+draft_2.py
+task_4_2.py
