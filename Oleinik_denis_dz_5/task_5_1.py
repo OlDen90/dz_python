@@ -5,17 +5,16 @@ def odd_nums(number):
 
 odd_to_15 = odd_nums(15)
 
+for next_odd in odd_to_15:
+    print(next_odd)
+
 # print(*odd_to_15)     # 1 3 5 7 9 11 13 15
 
-print(next(odd_to_15))  # 1
-print(next(odd_to_15))  # 3
-print(next(odd_to_15))  # 5
-print(next(odd_to_15))  # 7
-print(next(odd_to_15))  # 9
-print(next(odd_to_15))  # 11
-print(next(odd_to_15))  # 13
-print(next(odd_to_15))  # 15
-
-# Принцип работы вроде понял, но как правильно подписывать/именовать после for, т.е. что
-# написать вместо num чтобы код был хорошо читаем, другими словами, что есть num?
-# Аналогичный вопрос и к task_5_2
+# print(next(odd_to_15))  # 1
+# print(next(odd_to_15))  # 3
+# print(next(odd_to_15))  # 5
+# print(next(odd_to_15))  # 7
+# print(next(odd_to_15))  # 9
+# print(next(odd_to_15))  # 11
+# print(next(odd_to_15))  # 13
+# print(next(odd_to_15))  # 15
